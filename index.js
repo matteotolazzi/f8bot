@@ -96,6 +96,7 @@ function sendTextMessage(recipientId, messageText) {
 }
 
 function callSendAPI(messageData) {
+  var PAGE_ACCESS_TOKEN = 'EAAV2ycZCzQJYBAJUC4E0yFSyNhnMjcLXxVh3aizZCbXBM9LqSqMD6LKDm2dDI49Oxr05g3QAv1O7Cm8jG9kqHzwear30aPlBp6H16EjxQAiZCmrhLJ1RsMdb20y0vzFAyRxGkxK5rFUPCH77MzuHZBjaihUj478ZBO65jF4wq40XoA2xG3xBb'
   request({
     uri: 'https://graph.facebook.com/v2.6/me/messages',
     qs: { access_token: PAGE_ACCESS_TOKEN },
