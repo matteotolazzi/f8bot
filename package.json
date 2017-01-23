@@ -9,6 +9,9 @@
   "author": "matteo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "multer": "^1.2.1",
+    "request": "^2.79.0"
   }
 }
